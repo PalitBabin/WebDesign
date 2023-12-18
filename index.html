@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>TechMonastic Assessment</title>
+</head>
+
+<body>
+  <!-- navbar start -->
+  <header class="header">
+    <div class="row">
+      <div class="col-md-12 col-12 mx-auto">
+        <nav class="navbar navbar-style navbar-expand-lg navbar-light px-5">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" /></a>
+            <button class="navbar-toggler position-absolute" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Support
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                  </a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Live Example
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg></a>
+                
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Contact Us
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg></a>
+                 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+              </ul>
+              <ul class="navbar-nav mr-3 my-2 my-lg-0 navbar-nav-scroll d-flex align-items-center"
+                style="--bs-scroll-height: 100px">
+                <li class="nav-item">
+                  <p class="m-0 p-3">
+                    <img src="./images/cart.png" alt="cart" />
+                  </p>
+                </li>
+                <li class="nav-item">
+                  <p class="m-0 p-3" style="cursor: default;">Sign In</p>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn" style="background-color: #fb7169; color: #fff;">
+                    Get Started
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+
+  <!-- baneer section -->
+  <section id="banner">
+    <div class="heading">
+      <h1 class="title">
+        Build any Markerplace in <br />
+        3 Simple Steps
+      </h1>
+    </div>
+    <div class="header-buttons">
+      <button type="button" class="btn btn-danger btn-lg px-5" style="background-color: #fb7169; color: #fff;">
+        Get Started
+      </button>
+      <button type="button" class="btn btn-lg px-5" style="margin-right: 0.8rem">
+        View Live Example
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+        </svg>
+      </button>
+    </div>
+
+    <div class="banner-img">
+      <img src="./images/banner-img.png" alt="banner-image" />
+    </div>
+  </section>
+  <section id="why-us">
+    <h2 class="why-us-heading">Why <span style="font-weight: 600;">Choose WCMp?</span></h2>
+    <p>Only WCMp gives you a totally customizable solution</p>
+    <div class="why-us-container">
+      <div class="why-us-points">
+        <div class="customizable-solution">
+          <h4>Best customizable solution</h4>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="customizable-solution-points d-flex align-items-center">
+                <p><img src="./images/square-bullet.png" alt="bullet" />Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="customizable-solution-points d-flex align-items-center">
+                <p><img src="./images/square-bullet.png" alt="bullet" />Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="customizable-solution-points d-flex align-items-center">
+                
+                <p><img src="./images/square-bullet.png" alt="bullet" />Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="customizable-solution-points d-flex align-items-center">
+                <p><img src="./images/square-bullet.png" alt="bullet" />Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="achievements-container">
+          <h4>Achievements</h4>
+          <div class="achievements">
+            <div class="achievement-box">
+              <img src="./images/since-icon.png" alt="" />
+              <p style="font-weight: 600; margin-bottom: 0">2013</p>
+              <p>Since</p>
+            </div>
+            <div class="achievement-box">
+              <img src="./images/trusted-icon.png" alt="" />
+              <p style="font-weight: 600; margin-bottom: 0">10,000+</p>
+              <p>Trusted</p>
+            </div>
+            <div class="achievement-box">
+              <img src="./images/active-icon.png" alt="" />
+              <p style="font-weight: 600; margin-bottom: 0">5,600</p>
+              <p>Active</p>
+            </div>
+            <div class="achievement-box">
+              <img src="./images/rating-icon.png" alt="" />
+              <p style="font-weight: 600; margin-bottom: 0">4.9</p>
+              <p>Rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="video-section">
+        <img class="video-background" src="./images/play-button-background.png" alt="video-background" />
+        <img class="play-button" src="./images/play-button.png" alt="play-button" />
+      </div>
+    </div>
+    <div class="button-container">
+      <button type="button" class="btn btn-danger btn-lg px-4 py-1" style="font-size: 1.25rem ;background-color: #fb7169; color: #fff;">
+        Strat for Free
+      </button>
+      <button type="button" class="btn btn-outline-dark px-5">
+        Compare
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- product marketplace section -->
+
+  <section id="product-marketplace">
+    <h2>What Type of Marketplace <span style="font-weight: 600;">You Can Create</span></h2>
+    <p>Now you can build any marketplace with WCMp</p>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active px-3 active " aria-current="page" href="#">
+          <img src="./images/product-icon.png" alt="" />
+          Product Marketplace
+        </a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link" href="#">
+          <img src="./images/rental-icon.png" alt="" />
+          Rental Marketplace
+        </a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link" href="#">
+          <img src="./images/booking-icon.png" alt="" />
+          Booking Marketplace
+        </a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+          <img src="./images/subscription-icon.png" alt="" />
+          Subscription Marketplace
+        </a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+          <img src="./images/more-icon.png" alt="" />
+          More
+        </a>
+      </li>
+    </ul>
+    <div class="product-marketplace-container">
+      <div class="left-container">
+        <img src="./images/banner-img.png" alt="" />
+      </div>
+      <div class="right-container">
+        <h4>Product Marketplace</h4>
+        <p>
+          Forget all the hassle of managing tons of products, and traffic of
+          checkouts.WCMp makes <br />
+          it easy to launch and maintain a product marketplace with features
+        </p>
+        <div class="benefits-container">
+          <p><img src="./images/benefits-icon.png" alt="" />Benefits</p>
+          <ul>
+            <li>
+              <img src="./images/square-bullet.png" alt="" />Advanced
+              Filtering
+            </li>
+            <li>
+              <img src="./images/square-bullet.png" alt="" />1-click automatic
+              setup
+            </li>
+            <li>
+              <img src="./images/square-bullet.png" alt="" />Customizable
+              Colors
+            </li>
+          </ul>
+        </div>
+        <div class="target-container">
+          <p><img src="./images/target-icon.png" alt="" />Target</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Voluptates, tempore?
+          </p>
+        </div>
+        <div class="live-example-container">
+          <img style="width: 16rem" src="./images/live-example1.png" alt="" />
+          <img style="width: 16rem" src="./images/live-example2.png" alt="" />
+        </div>
+        <div class="know-more-button-container">
+          <button type="button" class="btn px-5" style="background-color:#488bd2 ; color: #fff;">
+            Know More
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial section -->
+
+  <section id="testimonial">
+    <h3>Client <span>Testimonials</span></h3>
+    <p>Get inspired by others who have made it big with WCMp</p>
+    <div class="testimonial-container">
+      <div class="testimonial-preview">
+        <div class="testimonial-img">
+          <img src="./images/site.png" alt="" />
+          <img src="./images/profile.png" alt="" />
+        </div>
+        <div class="testimonial-msg">
+          <p>Tim Savage</p>
+          <p>Owner, xyz private limited</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</br>
+            Non illum ipsam laudantium repudiandae iste culpa, </br>
+            explicabo quas? Aliquam, eum! Eligendi possimus, </br>
+            nesciunt animi officia similique molestiae cupiditate </br>
+            rem vitae laudantium ipsa repudiandae necessitatibus</br>
+            hic mollitia laborum, tempore fuga itaque tempora </br>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="online-marketplace">
+      <h5>
+        <img class="cup-icon" src="./images/cup-icon.png" alt="" />
+        Achieved in Online Marketplace
+      </h5>
+      <img src="./images/achievement-lit.png" alt="" />
+    </div>
+    </div>
+    <img class="testimonial-carousel" src="./images/carusel.png" alt="">
+  </section>
+  <!-- best feature section -->
+  <section id="best-featured">
+    <h3>Our <span style="font-weight: 600;">Best Featured</span></h3>
+    <p>Now you can build any marketplace with WCMp</p>
+
+    <div class="dual-section">
+      <div class="content left-content">
+        <h4>Product Management</h4>
+        <div class="category-list">
+          <div class="category-item">Available for</div>
+          <div class="category-item">Administrator</div>
+          <div class="category-item">Vendor</div>
+          <div class="category-item">Customer</div>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing<br>
+          elit. Ullam reiciendis ipsam odio ea perferendis modi
+        </p>
+        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+        <div class="two-columns-list">
+          <div class="first-column">
+            <div class="lorem-div"><img src="./images/square-bullet.png" alt="bullet" />
+              Subcription MarketPlace
+            </div>
+            <div class="lorem-div"><img src="./images/square-bullet.png" alt="bullet" />
+              Variable MarketPlace
+            </div>
+            <div class="lorem-div"><img src="./images/square-bullet.png" alt="bullet" />
+              Booking MarketPlace
+            </div>
+          </div>
+          <div class="second-column">
+            <div class="lorem-div"><img src="./images/square-bullet.png" alt="bullet" />
+              Physical MarketPlace
+            </div>
+            <div class="lorem-div"><img src="./images/square-bullet.png" alt="bullet" />
+              Static MarketPlace
+            </div>
+            <div class="lorem-div"><img src="./images/square-bullet.png" alt="bullet" />
+              Rental MarketPlace
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="featured-image right-image">
+        <img src="./images/site-1.png" alt="Image 1">
+      </div>
+    </div>
+
+    <div class="dual-section">
+      <div class="featured-image left-image">
+        <img src="./images/site-2.png" alt="Image 2">
+      </div>
+      <div class="content right-content">
+        <h4>Order Management</h4>
+        <div class="category-list">
+          <div class="category-item">Available for</div>
+          <div class="category-item">Administrator</div>
+          <div class="category-item">Vendor</div>
+          <div class="category-item">Customer</div>
+        </div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing<br>
+          elit. Ullam reiciendis ipsam odio ea perferendis modi
+        </p>
+        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+        <div class="two-columns-list">
+          <div class="first-column">
+            <div class="lorem-div">
+              <img src="./images/square-bullet.png" alt="bullet" />
+              <span style="color: #4b4949;">Subscription Marketplace</span> <br>
+              <span style="margin-left:1.99rem; font-size: 0.8rem; color: #949393;">Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Ad, eum?</span>
+            </div>
+            <div class="lorem-div">
+              <img src="./images/square-bullet.png" alt="bullet" />
+              <span style="color: #4b4949;">Booking Marketplace</span>
+               <br>
+              <span style="margin-left:1.99rem; font-size: 0.8rem; color: #949393;">Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Ad, eum?</span>
+            </div>
+            <div class="lorem-div">
+              <img src="./images/square-bullet.png" alt="bullet" />
+              <span style="color: #4b4949;">Rental Marketplace</span> <br>
+              <span style="margin-left:1.99rem; font-size: 0.8rem; color: #949393;">Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Ad, eum?</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="dual-section">
+      <div class="content left-content">
+        <h4>Site Security</h4>
+        <div class="category-list">
+          <div class="category-item">Available for</div>
+          <div class="category-item">Administrator</div>
+          <div class="category-item">Vendor</div>
+          <div class="category-item">Customer</div>
+        </div>
+        <p style="color: #949393;">Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Temporibus voluptas
+          facere sapiente fugit similique rerum.
+          Laudantium quaerat consectetur consequuntur
+          eius!adipisicing elit. Temporibus voluptas
+          facere sapiente fugit similique rerum.
+          Laudantium quaerat consectetur consequuntur
+          adipisicing elit. Temporibus voluptas
+          facere sapiente fugit similique rerum.
+          Laudantium quaerat consectetur consequuntur</p>
+      </div>
+      <div class="featured-image right-image">
+        <img src="./images/site-3.png" alt="Image 3">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- price section -->
+  <section id="price">
+    <h3>Find the Right Plan for <span style="font-weight: 600;">Your Marketplace</span></h3>
+    <p>Lorem ipsum dolor sit amet dolor sit amet</p>
+    <div class="toggle-container">
+      <span class="toggle-label">Monthly</span>
+      <label class="switch">
+        <input type="checkbox" id="toggleButton">
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">Yearly</span>
+    </div>
+    <div class="container price-container mt-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card border-0">
+            <div class="card-header text-center">
+              <h5 class="card-title plan-heading">Basic Plan</h5>
+              <p>from <span style="font-size: 2rem;" class="plan-heading">$59</span>/mo</p>
+              <p>Billed yearly @ 708</p>
+            </div>
+            <div class="card-body text-center " >
+              <h6 class="card-price">All Standard Features Included</h6>
+              <ul class="list-unstyled">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>All standard features included:</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Text of the printing and type setting <br>
+                  industry lorem Ipsum has been industry.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Dummy text ever since the 1500s</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>When an unknown printer took a galley.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Unknown printer took a galley.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem
+                  Ipsum has been the industry's standard.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>It has survived not only five centuries.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>WordPress integration.</li>
+
+              </ul>
+              <a href="#" class="btn btn-outline-dark px-4 my-4">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0">
+            <div class="card-header text-center d-flex justify-content-center">
+              <div class="plan-title">
+                <h5 class="card-title plan-heading">Standard</h5>
+              <p>from <span style="font-size: 2rem;" class="plan-heading">$90</span>/mo</p>
+              <p>Billed yearly @ 1080</p>
+              </div>
+              <div class="popular">
+                Popular
+              </div>
+            </div>
+            <div class="card-body text-center">
+              <h6 class="card-price">All Standard Features Included</h6>
+              <ul class="list-unstyled">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>All standard features included:</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Text of the printing and type setting <br>
+                  industry lorem Ipsum has been industry.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Dummy text ever since the 1500s</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>When an unknown printer took a galley.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Unknown printer took a galley.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem
+                  Ipsum has been the industry's standard.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>It has survived not only five centuries.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>WordPress integration.</li>
+
+              </ul>
+              <a href="#" class="btn btn-danger my-4 px-4">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0">
+            <div class="card-header text-center">
+              <h5 class="card-title plan-heading">Professional</h5>
+              <p>from <span style="font-size: 2rem;" class="plan-heading">$349</span>/mo</p>
+              <p>Billed yearly @ 4188</p>
+            </div>
+            <div class="card-body text-center">
+              <h6 class="card-price">All Standard Features Included</h6>
+              <ul class="list-unstyled">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>All standard features included:</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Text of the printing and type setting <br>
+                  industry lorem Ipsum has been industry.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Dummy text ever since the 1500s</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>When an unknown printer took a galley.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Unknown printer took a galley.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>Lorem Ipsum is simply dummy text of the
+                  printing and typesetting industry. Lorem
+                  Ipsum has been the industry's standard.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>It has survived not only five centuries.</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="blue" fill="currentColor"
+                    class="bi bi-check-lg" viewBox="0 0 16 16">
+                    <path
+                      d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022" />
+                  </svg>WordPress integration.</li>
+
+              </ul>
+              <a href="#" class="btn btn-outline-dark px-4 my-4">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- customers section -->
+  <section id="customers">
+    <h3>Satisfied <span style="font-weight: 600;">Customers</span></h3>
+    <p>Lorem ipsum dolor sit amet dolor sit amet</p>
+    <div class="customers-container">
+      <div class="customer-img">
+        <img src="./images/call-1.png" alt="">
+      </div>
+      <div class="customer-img">
+        <img src="./images/call-2.png" alt="">
+      </div>
+    </div>
+    <div class="more-customer-btn">
+
+      <button type="button" class="btn btn-outline-dark px-5">
+        See More Conversations
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- support section -->
+  <section id="support">
+
+    <div class="px-4 py-5 my-5 text-center support-container">
+      <img class="d-block mx-auto mb-4" src="./images/qus.png" alt="" width="150" height="150">
+      <h2 class="display-7 fw-bold">We Are There for You Every Step of the Way</h2>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+          popular front-end open source toolkit, featuring Sass variables .</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-danger btn-md py-1 px-5 gap-3">
+            How to Get Support
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </button>
+          <button type="button" class="btn btn-outline-secondary btn-md px-4">
+            How Can You Support
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- blog section -->
+  <section id="blog">
+    <h3>Our <span style="font-weight: 600;">Blog</span></h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, voluptatibus.</p>
+    <div class="container mt-5 blog-container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="row g-0 border-0  overflow-hidden flex-md-row-reverse mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <small class="d-inline-block mb-2 text-violet" style="font-size: 0.8rem;">MARKETPLACE</small>
+              <h6 class="mb-0">Building an any Online Reantal Marketplace : The <br>
+                Ultimate Guide
+              </h6>
+              <div class="mb-1 text-muted small">3 November 2020 . 12 MIN RED</div>
+              <p class="card-text mb-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ex, recusandae debitis. Necessitatibus nemo ducimus
+                sed iure deserunt aliquam molestias fuga!</p>
+              <div class="d-flex justify-content-start">
+                <a href="#" class="btn btn-primary btn-sm"><span style=" color: #fff;">Read More</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                  </svg>
+
+                </a>
+              </div>
+
+
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="./images/handshake.png" width="400" height="250" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+
+  <footer class="text-center text-lg-start text-white"
+    style="background-image: url('./images/footer-background.png'); background-size: cover; background-repeat: no-repeat; background-position: center center; color: #fff;">
+
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 ">
+
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </section>
+
+
+
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+
+        <div class="row mt-3">
+
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h3 class="fw-bold mb-4 text-md-start">
+              WCM<span style="font-weight: 400;">arketplace</span>
+            </h3>
+            <p class="text-md-start">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officiis animi eos facere, magnam totam
+              placeat natus blanditiis cumque deserunt.
+            </p>
+          </div>
+
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class=" mb-4">
+              Quick Links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Laravel</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Laravel</a>
+            </p>
+
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+            <h6 class="mb-4">
+              Contact Us
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none mb-0">WC Marketplace, <br>
+                Module #534, Sector-v <br>
+                Salt Lake City, Kolkata, India
+              </a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">contact@wc-marketplace.com</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Have questions? Ask here</a>
+            </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+            <h6 class=" mb-4">Subscriibe to Our Blog</h6>
+            <p> We promise, we won't spam you!!</p>
+            <p>
+              <input type="text" class="form-control" id="exampleInput" placeholder="Email Address">
+            </p>
+            <button type="button" class="btn btn-danger btn-lg py-1 px-5 gap-3" style="background-color: #fb7169; color: #fff;">
+              Subscribe
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <div class="text-end p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Sourav Palit.All Rights Reserved
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Made By Sourav Palit -->
